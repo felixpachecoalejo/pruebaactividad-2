@@ -32,7 +32,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Intentamos con 'dist', que es lo que genera Vite por defecto
-          path: './dist'
+          path: '.'
           # Si 'dist' no existe, GitHub Pages usará la raíz para no fallar
           if-no-files-found: warn 
 
